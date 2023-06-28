@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">SDK Example</string>
+
+    <string name="info_camera">Camera &amp; Video information:</string>
+    <string name="info_video_stream_id">"Current video stream id:"</string>
+    <string name="info_capture_state">Capture readiness:</string>
+    <string name="info_capture_mode">Capture mode:</string>
+    <string name="info_video_recording">Video recording:</string>
+    <string name="info_free_space">Free space:</string>
+    <string name="info_on">ON</string>
+    <string name="info_off">OFF</string>
+    <string name="info_ready">READY</string>
+    <string name="info_not_ready">NOT READY</string>
+    <string name="info_cap_mode_photo">PHOTO</string>
+    <string name="info_cap_mode_video">VIDEO</string>
+    <string name="info_free_mb">%1$d MB</string>
+    <string name="info_unknown">UNKNOWN</string>
+
+    <string name="info_uart">Uart information:</string>
+    <string name="info_uart1_baudrate">Uart1 baudrate:</string>
+    <string name="info_uart2_baudrate">Uart2 baudrate:</string>
+
+    <string name="info_d2d">D2d information:</string>
+    <string name="info_d2d_connection">connection:</string>
+    <string name="info_d2d_signal_air">Air signal:</string>
+    <string name="info_d2d_signal_controller">Controller signal:</string>
+    <string name="info_connected">Connected</string>
+    <string name="info_disconnected">Disconnected</string>
+    <string name="info_dbm">"%1$d dBm"</string>
+
+    <string name="action_d2d_pair">D2d Pair</string>
+    <string name="prompt_result_d2d_pair_waiting">"waiting for pair result"</string>
+    <string name="prompt_result_d2d_pair_succeed">"D2D pair is done!"</string>
+    <string name="prompt_result_d2d_pair_fail">"D2D pair failed!"</string>
+    <string name="action_toggle_mode">Toggle capture mode</string>
+    <string name="prompt_toggle_mode">"Toggling capture mode"</string>
+    <string name="action_photo">Take Photo</string>
+    <string name="action_start_video_record">Start Video Record</string>
+    <string name="action_stop_video_record">Stop Video Record</string>
+    <string name="action_set_video_stream_id">Switch Video Stream</string>
+    <string name="action_set_uart_baudrate">Set Uart Baudrate</string>
+    <string name="prompt_taking_photo">Taking photo</string>
+    <string name="prompt_starting_video_record">Starting video recording</string>
+    <string name="prompt_setting_video_stream_id">Switching video stream</string>
+    <string name="prompt_stopping_video_record">Stopping video recording</string>
+    <string name="prompt_setting_uart">Setting Uart baudrate</string>
+    <string name="prompt_return_ok">" waiting result"</string>
+    <string name="prompt_return_capture_not_ready">" failed for the capture not ready"</string>
+    <string name="prompt_return_not_ready">" failed for the service not ready"</string>
+    <string name="prompt_return_wait_pending">" failed for other command not finished"</string>
+    <string name="prompt_return_capture_no_free_mem">" failed for the SD card full or not inserted"</string>
+    <string name="prompt_result_success">" succeeded!"</string>
+    <string name="prompt_result_fail">" failed!"</string>
+    <string name="prompt_result_timeout">" timeout!"</string>
+    <string name="prompt_input_valid">"Please input valid data."</string>
+
+    <string name="hint_input_uart_id">"Enter Uart Id"</string>
+    <string name="hint_input_uart_baudrate">"Enter Uart Baudrate"</string>
+
+</resources>
